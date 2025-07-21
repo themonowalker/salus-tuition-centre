@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Dashboard - Salu's Tuition</title>
+</head>
+<body>
+  <h1>Student Dashboard</h1>
+
+  <ul>
+    <li><strong>Fee Details:</strong> ₹2000/month</li>
+    <li><strong>Class Timings:</strong> Mon-Fri, 5:00 PM - 7:00 PM</li>
+    <li><strong>Location:</strong> Near ABC Junction, Varkala</li>
+  </ul>
+
+  <!-- Firebase SDK -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-analytics.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyAHoQ4sn1t2DZ81XIXzCx93Cm_r2m3xPyo",
+      authDomain: "salus-tuition-centre.firebaseapp.com",
+      projectId: "salus-tuition-centre",
+      storageBucket: "salus-tuition-centre.firebasestorage.app",
+      messagingSenderId: "235017522276",
+      appId: "1:235017522276:web:c788aefa411650d2942371",
+      measurementId: "G-550KYJB6RY"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</body>
+</html>
